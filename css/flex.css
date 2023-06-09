@@ -1,0 +1,62 @@
+.flexGrid .grid {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .flexGrid .course {
+    border: 1px solid #ed5f00;
+    border-radius: 25px;
+    padding: 15px 5px;
+    color: #ed5f00;
+    cursor: pointer;
+    width: 30%;
+    margin: 1%;
+  }
+.flexContainer:last-child {
+  margin-top: 2em;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.flexContainer div {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 20px;
+}
+.flexContainer div:nth-child(1) {
+  background-color: red;
+}
+.flexContainer div:nth-child(2) {
+  background-color: blue;
+}
+.flexContainer div:nth-child(3) {
+  background-color: green;
+}
+.flexContainer div:nth-child(4) {
+  background-color: yellow;
+}
+.flexContainer div:nth-child(5) {
+  background-color: pink;
+}
+.flexContainer div:nth-child(6) {
+  background-color: black;
+}
+.flexContainer div:nth-child(7) {
+  background-color: orange;
+}
+.flexContainer div:nth-child(8) {
+  background-color: purple;
+}
+.flexContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.flexItem {
+    flex-grow: 1;
+}
+
